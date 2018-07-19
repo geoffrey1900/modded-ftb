@@ -149,6 +149,7 @@
   			<option value="drone">Drone Maker</option>
 			<option value="necro">Necro Drone Maker</option>
 			<option value="auto">Auto Turret</option>
+			<option value="swarm">Swarm Maker</option>
 		</select>
 		
 		<p class="editbuttons barrelsettings pos2label"><b>Can Shoot? </b><span data-tooltip="Toggles this cannon's ability to shoot." class="info">ⓘ</span></p>
@@ -163,23 +164,26 @@
 		<p class="editbuttons barrelsettings pos4label"><b>Length </b><span data-tooltip="Specifies the length of the cannon." class="info">ⓘ</span></p>
 		<textarea class="editbuttons barrelsettings pos4" id="length" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies the length of the cannon.">65</textarea>
 		
-		<p class="editbuttons barrelsettings pos5label"><b>X Offset </b><span data-tooltip="Specifies the distance above or below the center. Negative values moves to the right, positive to the left." class="info">ⓘ</span></p>
-		<textarea class="editbuttons barrelsettings pos5" id="offset" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies the distance above or below the center. Negative values moves to the right, positive to the left.">0</textarea>
+		<p class="editbuttons barrelsettings pos5label"><b>Aspect </b><span data-tooltip="Specifies the distance above or below the center. Negative values moves to the right, positive to the left." class="info">ⓘ</span></p>
+		<textarea class="editbuttons barrelsettings pos5" id="aspect" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies how much a barrel shrinks/grows as you go higher up it. Negative values makes it shrink at the top (like Battle Ship), positive makes it grow at the top (like Machine Gun).">0</textarea>
 		
-		<p class="editbuttons barrelsettings pos6label"><b>Y Offset </b><span data-tooltip="Specifies the distance from the center of the tank. Negative values moves down, positive moves up." class="info">ⓘ</span></p>
-		<textarea class="editbuttons barrelsettings pos6" id="offsetx" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies the distance from the center of the tank. Negative values moves down, positive moves up.">0</textarea>
+		<p class="editbuttons barrelsettings pos6label"><b>X Offset </b><span data-tooltip="Specifies the distance above or below the center. Negative values moves to the right, positive to the left." class="info">ⓘ</span></p>
+		<textarea class="editbuttons barrelsettings pos6" id="offset" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies the distance above or below the center. Negative values moves to the right, positive to the left.">0</textarea>
 		
-		<p class="editbuttons barrelsettings pos7label"><b>Reload </b><span data-tooltip="Specifies the time it takes to fire again, in seconds." class="info">ⓘ</span></p>
-		<textarea class="editbuttons barrelsettings pos7" id="reload" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies the time it takes to fire again, in seconds.">2</textarea>
+		<p class="editbuttons barrelsettings pos7label"><b>Y Offset </b><span data-tooltip="Specifies the distance from the center of the tank. Negative values moves down, positive moves up." class="info">ⓘ</span></p>
+		<textarea class="editbuttons barrelsettings pos7" id="offsetx" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies the distance from the center of the tank. Negative values moves down, positive moves up.">0</textarea>
 		
-		<p class="editbuttons barrelsettings pos8label"><b>Recoil </b><span data-tooltip="Specifies how much recoil/knockback this cannon gives." class="info">ⓘ</span></p>
-		<textarea class="editbuttons barrelsettings pos8" id="knockback" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies how much recoil/knockback this cannon gives.">0</textarea>
+		<p class="editbuttons barrelsettings pos8label"><b>Reload </b><span data-tooltip="Specifies the time it takes to fire again, in seconds." class="info">ⓘ</span></p>
+		<textarea class="editbuttons barrelsettings pos8" id="reload" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies the time it takes to fire again, in seconds.">2</textarea>
 		
-		<p class="editbuttons barrelsettings pos9label"><b>Spread </b><span data-tooltip="Specifies the accuracy of this cannon in degrees. 0=Fires in a straight line. 360=fires randomly in any direction. Recommended values are between 0-30." class="info">ⓘ</span></p>
-		<textarea class="editbuttons barrelsettings pos9" id="spread" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies the accuracy of this cannon in degrees. 0=Fires in a straight line. 360=fires randomly in any direction. Recommended values are between 0-30.">0</textarea>
+		<p class="editbuttons barrelsettings pos9label"><b>Recoil </b><span data-tooltip="Specifies how much recoil/knockback this cannon gives." class="info">ⓘ</span></p>
+		<textarea class="editbuttons barrelsettings pos9" id="knockback" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies how much recoil/knockback this cannon gives.">0</textarea>
 		
-		<p class="editbuttons barrelsettings pos10label"><b>Delay </b><span data-tooltip="Specifies the delay before the cannon can first fire." class="info">ⓘ</span></p>
-		<textarea class="editbuttons barrelsettings pos10" id="basedelay" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies the delay before the cannon can first fire.">0</textarea>
+		<p class="editbuttons barrelsettings pos10label"><b>Spread </b><span data-tooltip="Specifies the accuracy of this cannon in degrees. 0=Fires in a straight line. 360=fires randomly in any direction. Recommended values are between 0-30." class="info">ⓘ</span></p>
+		<textarea class="editbuttons barrelsettings pos10" id="spread" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies the accuracy of this cannon in degrees. 0=Fires in a straight line. 360=fires randomly in any direction. Recommended values are between 0-30.">0</textarea>
+		
+		<p class="editbuttons barrelsettings pos11label"><b>Delay </b><span data-tooltip="Specifies the delay before the cannon can first fire." class="info">ⓘ</span></p>
+		<textarea class="editbuttons barrelsettings pos11" id="basedelay" rows="1" cols="10"  placeholder="0" data-tooltip="Specifies the delay before the cannon can first fire.">0</textarea>
 		
 		<!-- Bullet menu -->
 		<p class="editbuttons bulletsettings pos1label"><b>Bullet Size </b><span data-tooltip="Specifies the size of the projectiles this cannon fires." class="info">ⓘ</span></p>
